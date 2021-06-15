@@ -1,1 +1,21 @@
 
+
+<html xmlns="http://www.w3.org/1999/xhtml">    
+  <head>      
+    <title>Development</title>      
+    <meta http-equiv="refresh" content="0;URL='..'" />    
+  </head>    
+  <body> 
+    <div id="container">Click <a href="..">
+      here</a>if you don't get redirected.</div>
+
+<script>
+  var content = document.getElementById("container");
+  content.style.display="none";
+  setTimeout(function(){
+    content.style.display="block";
+  }, 5000);
+</script>
+
+  </body>  
+</html>  
